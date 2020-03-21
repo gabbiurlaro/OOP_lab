@@ -1,0 +1,25 @@
+------------------  Rubrica -----------------------
+ 
+Progettare ed implementare un programma che possa gestire una rubrica. 
+ 
+La rubrica contiene delle voci. Le voci sono definite da nome, cognome e numero di telefono. 
+ 
+Quando si crea un oggetto Rubrica si deve fornire un nome che permetta di identificarla.  
+Il nome della rubrica deve essere accessibile tramite il metodo getNome(). 
+ 
+L'inserimento di una nuova voce nella rubrica avviene tramite il metodo aggiungi() 
+che riceve tre parametri stringa: nome, cognome, e telefono. 
+ 
+Per accedere al primo elemento della rubrica si utilizza il metodo primo() 
+che restituisce una stringa contenente nome, congnome e telefono separati 
+da uno spazio (stampa il contenuto della prima voce nella rubrica). 
+ 
+Per accedere ad un elemento qualsiasi nella rubrica si utilizza il metodo voce() che riceve
+ come parametro il numero d'ordine della voce (a partire da 1, perciò primo() == voce(1));
+ il formato della stringa restituita è lo stesso del metodo primo(). 
+ 
+Il metodo elenco() restituisce una stringa con l'elenco delle voci della rubrica separate da ", ";
+ l'elenco inizia con "(" e termina con ")". 
+ 
+Infine, il metodo ricerca() restituisce la prima voce nella rubrica che contiene in uno dei suoi campi 
+(nome, cognome oppure telefono) la stringa passata come parametro. 
